@@ -1,0 +1,2 @@
+
+<?php echo $__env->make('landing.layout.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\flexcar\resources\views/landing/index.blade.php ENDPATH**/ ?>
