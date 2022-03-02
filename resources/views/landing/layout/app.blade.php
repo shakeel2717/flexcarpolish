@@ -69,9 +69,9 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-3 col-md-6">
                             <div class="widget no-border m-0">
-                                <a href="{{ route('index') }}"
+                                {{-- <a href="{{ route('index') }}"
                                     class="menuzord-brand pull-left flip xs-pull-center mt-10 mb-10"><img alt=""
-                                        src="{{ asset('assets/images/logo-wide.png') }}"></a>
+                                        src="{{ asset('assets/images/logo-wide.png') }}"></a> --}}
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-3">
@@ -155,7 +155,8 @@
                     <div class="col-sm-6 col-md-3">
                         <div class="widget dark">
                             <img class="mt-5 mb-20" alt=""
-                                src="{{ asset('assets/images/logo-white-footer.png') }}">
+                                {{-- src="{{ asset('assets/images/logo-white-footer.png') }}" --}}
+                                >
                             <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
                             <ul class="list-inline mt-5">
                                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-color-2 mr-5"></i> <a
