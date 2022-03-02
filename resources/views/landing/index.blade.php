@@ -5,7 +5,7 @@
         <div class="container pb-0">
             <div class="section-content">
                 <div class="row">
-                    <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-140px"
+                    <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-80px"
                         data-wow-duration="1s" data-wow-delay="0.1s">
                         <img class="img-fullwidth" src="{{ asset('assets/images/stock/full_car_in.jpg') }}" alt="">
                         <div class="bg-lighter border-1px p-20 pt-0 mb-sm-180">
@@ -14,7 +14,7 @@
                             <a href="{{ route('contact') }}" class="btn btn-sm btn-theme-colored">Contact us</a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-140px"
+                    <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-80px"
                         data-wow-duration="1s" data-wow-delay="0.1s">
                         <img class="img-fullwidth" src="{{ asset('assets/images/stock/clean_tire.jpg') }}" alt="">
                         <div class="bg-lighter border-1px p-20 pt-0 mb-sm-180">
@@ -24,7 +24,7 @@
                                 class="btn btn-sm btn-theme-colored">Contact Agent</a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-140px"
+                    <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-80px"
                         data-wow-duration="1s" data-wow-delay="0.1s">
                         <img class="img-fullwidth" src="{{ asset('assets/images/stock/black_tire.jpg') }}" alt="">
                         <div class="bg-lighter border-1px p-20 pt-0">
@@ -80,6 +80,40 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Section: About -->
+    <section class="">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <div class="row mb-10">
+                            <div class="col-md-12">
+                                <img class="img-fullwidth" src="{{ asset('assets/images/stock/front_shower.jpg') }}"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h2 class="text-uppercase mt-0 font-weight-600">MANUAL <span class="text-theme-color-2">and
+                                Complete</span><br> CAR WASH Service</h2>
+                        </h4>
+                        <p>Car wash without moving the car from its parking spot. Have your car perfectly cleaned, while you
+                            leave for shopping or other activities. Our washing carts do not leave any dirt or water on the
+                            floor. Our washing method is Eco-friendly, since our requirement for water is only 1 liter for a
+                            full wash. We are saving around 50 liters of water in each car wash compared to the traditional
+                            car wash. Our crew members are all trained and skilled and fully equipped with all the supplies
+                            needed to deliver the best results..</p>
+                        <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                            class="btn btn-flat btn-theme-colored text-uppercase mt-20 mb-sm-30 border-left-theme-color-2-4px">Book
+                            now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Section: Practice Areas -->
     <section id="services" class="bg-lighter">
@@ -504,6 +538,92 @@
                                 </div>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img alt="" src="{{ asset('assets/images/stock/hero2.jpg') }}" class="img-fullwidth">
+                        <h3 class="line-bottom-no-border">Car Repair &amp; Service Center</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et magni temporibus voluptates. Iure
+                            quam laboriosam ullam omnis nulla deleniti, repellendus sequi reiciendis quas voluptatibus
+                            consectetur alias aspernatur deserunt veritatis.</p>
+                        <a class="btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30" href="page-about-style1.html">Know
+                            More →</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <div class="icon-box iconbox-theme-colored p-0 mb-30">
+                                    <a href="#" class="icon icon-sm mb-0 mr-10 pull-left flip sm-pull-none mb-sm-15">
+                                        <i class="flaticon-carrepair-transport-6 font-42 text-theme-colored"></i>
+                                    </a>
+                                    <h4 class="icon-box-title m-0 mb-5">Schedule Services</h4>
+                                    <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                                        magni temporibus voluptates adipisicing..</p>
+                                    <a class="text-theme-colored font-13" href="#">Read More →</a>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <div class="icon-box iconbox-theme-colored p-0 mb-30">
+                                    <a href="#" class="icon icon-sm mb-0 mr-10 pull-left flip sm-pull-none mb-sm-15">
+                                        <i class="flaticon-carrepair-car-washing-machine font-42 text-theme-colored"></i>
+                                    </a>
+                                    <h4 class="icon-box-title m-0 mb-5">Best Car Services</h4>
+                                    <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                                        magni temporibus voluptates adipisicing..</p>
+                                    <a class="text-theme-colored font-13" href="#">Read More →</a>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <div class="icon-box iconbox-theme-colored p-0 mb-30">
+                                    <a href="#" class="icon icon-sm mb-0 mr-10 pull-left flip sm-pull-none mb-sm-15">
+                                        <i class="flaticon-carrepair-car-on-a-frame font-42 text-theme-colored"></i>
+                                    </a>
+                                    <h4 class="icon-box-title m-0 mb-5">Complete Analysis</h4>
+                                    <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                                        magni temporibus voluptates adipisicing..</p>
+                                    <a class="text-theme-colored font-13" href="#">Read More →</a>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <div class="icon-box iconbox-theme-colored p-0 mb-30">
+                                    <a href="#" class="icon icon-sm mb-0 mr-10 pull-left flip sm-pull-none mb-sm-15">
+                                        <i class="flaticon-carrepair-transport-4 font-42 text-theme-colored"></i>
+                                    </a>
+                                    <h4 class="icon-box-title m-0 mb-5">Security inspection</h4>
+                                    <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                                        magni temporibus voluptates adipisicing..</p>
+                                    <a class="text-theme-colored font-13" href="#">Read More →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4 sm-text-center mb-sm-30">
+                                <a class="image-popup-vertical-fit" title="Title Here 1"
+                                    href="{{ asset('assets/images/stock/clean_tire.jpg') }}"><img
+                                        class="img-fullwidth maxwidth500"
+                                        src="{{ asset('assets/images/stock/clean_tire.jpg') }}" alt=""></a>
+                            </div>
+                            <div class="col-xs-4 sm-text-center mb-sm-30">
+                                <a class="image-popup-vertical-fit" title="Title Here 1"
+                                    href="{{ asset('assets/images/stock/headlight_wash.jpg') }}"><img
+                                        class="img-fullwidth maxwidth500"
+                                        src="{{ asset('assets/images/stock/headlight_wash.jpg') }}" alt=""></a>
+                            </div>
+                            <div class="col-xs-4 sm-text-center">
+                                <a class="image-popup-vertical-fit" title="Title Here 1"
+                                    href="{{ asset('assets/images/about/lg1.jpg') }}"><img
+                                        class="img-fullwidth maxwidth500"
+                                        src="{{ asset('assets/images/about/lg1.jpg') }}" alt=""></a>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -69,7 +69,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-3 col-md-6">
                             <div class="widget no-border m-0">
-                                <a href="index-mp-layout1.html"
+                                <a href="{{ route('index') }}"
                                     class="menuzord-brand pull-left flip xs-pull-center mt-10 mb-10"><img alt=""
                                         src="{{ asset('assets/images/logo-wide.png') }}"></a>
                             </div>
@@ -118,7 +118,8 @@
                                 <li>
                                     <!-- Modal: Book Now Starts -->
                                     <a class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 mt-0 p-25 pr-15 pl-15"
-                                        href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}">Book Now</a>
+                                        href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}">Book
+                                        Now</a>
                                     <!-- Modal: Book Now End -->
                                 </li>
                             </ul>
@@ -169,13 +170,13 @@
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="widget dark">
-                            <h4 class="widget-title line-bottom-theme-colored-2">Useful Links</h4>
-                            <ul class="list angle-double-right list-border">
-                                <li><a href="#">Body Building</a></li>
-                                <li><a href="#">Fitness Classes</a></li>
-                                <li><a href="#">Weight lifting</a></li>
-                                <li><a href="#">Yoga Courses</a></li>
-                                <li><a href="#">Training</a></li>
+                            <h4 class="widget-title line-bottom-theme-colored-2">Services</h4>
+                            <ul class="list list-border">
+                                <li><a href="#">Car Polish</a></li>
+                                <li><a href="#">Car wash</a></li>
+                                <li><a href="#">Mobile car wash</a></li>
+                                <li><a href="#">Car Ceramic and Coating</a></li>
+                                <li><a href="#">Hand Waxing</a></li>
                             </ul>
                         </div>
                     </div>
@@ -183,11 +184,11 @@
                         <div class="widget dark">
                             <h4 class="widget-title line-bottom-theme-colored-2">Services</h4>
                             <ul class="list list-border">
-                                <li><a href="#">Oil Change</a></li>
-                                <li><a href="#">Engine Service</a></li>
-                                <li><a href="#">Wheel Alignment</a></li>
-                                <li><a href="#">Looking Glass</a></li>
-                                <li><a href="#">Coloring</a></li>
+                                <li><a href="#">Window Tinting</a></li>
+                                <li><a href="#">Interior Cleaning</a></li>
+                                <li><a href="#">Engine Oil Change</a></li>
+                                <li><a href="#">Engine Oil Change</a></li>
+                                <li><a href="#">& Many more</a></li>
                             </ul>
                         </div>
                     </div>
@@ -214,7 +215,7 @@
                     </div>
                 </div>
                 <div class="row mt-30">
-                    <div class="col-md-2">
+                    <div class="col-md-6">
                         <div class="widget dark">
                             <h5 class="widget-title mb-10">Call Us Now</h5>
                             <div class="text-gray">
@@ -223,35 +224,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6 text-right">
                         <div class="widget dark">
                             <h5 class="widget-title mb-10">Connect With Us</h5>
                             <ul class="styled-icons icon-bordered icon-sm">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-md-offset-2">
-                        <div class="widget dark">
-                            <h5 class="widget-title mb-10">Subscribe Us</h5>
-                            <!-- Mailchimp Subscription Form Starts Here -->
-                            <form id="mailchimp-subscription-form-footer" class="newsletter-form">
-                                <div class="input-group">
-                                    <input type="email" value="" name="EMAIL" placeholder="Your Email"
-                                        class="form-control input-lg font-16" data-height="45px" id="mce-EMAIL-footer"
-                                        style="height: 45px;">
-                                    <span class="input-group-btn">
-                                        <button data-height="45px"
-                                            class="btn bg-theme-color-2 text-white btn-xs m-0 font-14"
-                                            type="submit">Subscribe</button>
-                                    </span>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -260,22 +240,24 @@
                 <div class="container pt-20 pb-20">
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="font-11 text-black-777 m-0">Copyright &copy;2016 ThemeMascot. All Rights Reserved
+                            <p class="font-11 text-black-777 m-0">Copyright &copy;{{ date('Y') }}
+                                {{ env('APP_NAME') }}. All Rights Reserved
                             </p>
                         </div>
                         <div class="col-md-6 text-right">
                             <div class="widget no-border m-0">
                                 <ul class="list-inline sm-text-center mt-5 font-12">
                                     <li>
-                                        <a href="#">FAQ</a>
+                                        <a href="#">About</a>
                                     </li>
                                     <li>|</li>
                                     <li>
-                                        <a href="#">Help Desk</a>
+                                        <a href="#">Contact</a>
                                     </li>
                                     <li>|</li>
                                     <li>
-                                        <a href="#">Support</a>
+                                        <a
+                                            href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}">Whatsapp</a>
                                     </li>
                                 </ul>
                             </div>
