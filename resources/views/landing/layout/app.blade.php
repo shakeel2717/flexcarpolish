@@ -196,11 +196,8 @@
                             <h4 class="widget-title line-bottom-theme-colored-2">Opening Hours</h4>
                             <div class="opening-hourse">
                                 <ul class="list-border">
-                                    <li class="clearfix"> <span> Mon - Tues : </span>
+                                    <li class="clearfix"> <span> Mon - Sun : </span>
                                         <div class="value pull-right"> 8.00 am - 09.00 pm </div>
-                                    </li>
-                                    <li class="clearfix"> <span> Sun : </span>
-                                        <div class="value pull-right"> Closed </div>
                                     </li>
                                 </ul>
                             </div>
