@@ -220,8 +220,8 @@
                         <div class="widget dark">
                             <h5 class="widget-title mb-10">Call Us Now</h5>
                             <div class="text-gray">
-                                +61 3 1234 5678 <br>
-                                +12 3 1234 5678
+                                {{ env('APP_PHONE') }} <br>
+                                {{ env('APP_PHONE2') }}
                             </div>
                         </div>
                     </div>
@@ -229,9 +229,9 @@
                         <div class="widget dark">
                             <h5 class="widget-title mb-10">Connect With Us</h5>
                             <ul class="styled-icons icon-bordered icon-sm">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="{{ env('APP_FACEBOOK') }}"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="{{ env('APP_TWITTER') }}"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="{{ env('APP_INSTAGRAME') }}"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
