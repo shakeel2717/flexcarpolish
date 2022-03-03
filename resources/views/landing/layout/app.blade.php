@@ -160,12 +160,12 @@
                             <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
                             <ul class="list-inline mt-5">
                                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-color-2 mr-5"></i> <a
-                                        class="text-gray" href="#">123-456-789</a> </li>
+                                        class="text-gray" href="#">{{ env('APP_PHONE') }}</a> </li>
                                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-color-2 mr-5"></i>
-                                    <a class="text-gray" href="#">contact@yourdomain.com</a>
+                                    <a class="text-gray" href="#">{{ env('APP_EMAIL') }}</a>
                                 </li>
                                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-color-2 mr-5"></i> <a
-                                        class="text-gray" href="#">www.yourdomain.com</a> </li>
+                                        class="text-gray" href="{{ route('index') }}">https://flexcarpolish.com/</a> </li>
                             </ul>
                         </div>
                     </div>
