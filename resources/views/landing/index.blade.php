@@ -1,5 +1,6 @@
 @extends('landing.layout.app')
 @section('body')
+    @include('inc.slider')
     <!-- Section: About -->
     <section>
         <div class="container pb-0">

@@ -142,8 +142,6 @@
         <div class="main-content">
 
             <!-- Section: home -->
-            @include('inc.slider')
-
             @yield('body')
         </div>
 
