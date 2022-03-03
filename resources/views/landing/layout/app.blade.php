@@ -199,13 +199,7 @@
                             <div class="opening-hourse">
                                 <ul class="list-border">
                                     <li class="clearfix"> <span> Mon - Tues : </span>
-                                        <div class="value pull-right"> 6.00 am - 10.00 pm </div>
-                                    </li>
-                                    <li class="clearfix"> <span> Wednes - Thurs :</span>
-                                        <div class="value pull-right"> 8.00 am - 6.00 pm </div>
-                                    </li>
-                                    <li class="clearfix"> <span> Fri : </span>
-                                        <div class="value pull-right"> 3.00 pm - 8.00 pm </div>
+                                        <div class="value pull-right"> 8.00 am - 09.00 pm </div>
                                     </li>
                                     <li class="clearfix"> <span> Sun : </span>
                                         <div class="value pull-right"> Closed </div>
