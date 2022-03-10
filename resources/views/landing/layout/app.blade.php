@@ -155,7 +155,7 @@
                             <img class="mt-5 mb-20" alt=""
                                 src="{{ asset('assets/images/brand/logo-light.svg') }}"
                                 >
-                            <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
+                            <p>{{ env('APP_ADDRESS') }}</p>
                             <ul class="list-inline mt-5">
                                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-color-2 mr-5"></i> <a
                                         class="text-gray" href="#">{{ env('APP_PHONE') }}</a> </li>
