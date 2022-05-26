@@ -48,7 +48,7 @@
                 <div class="row">
                     <div class="col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h2 class="text-uppercase mt-0 font-weight-600">Welcome To <span
-                                class="text-theme-color-2">{{ env('APP_NAME') }}</span><br> in Abu Dubai</h2>
+                                class="text-theme-color-2">{{ env('APP_NAME') }}</span><br> in Abu Dhabi</h2>
                         <h4 class="text-gray-dimgray font-weight-400"><em>We are using non-abrasive and non-toxic natural
                                 washing chemicals. We have in-house developed and manufactured cleaning products.</em>
                         </h4>
