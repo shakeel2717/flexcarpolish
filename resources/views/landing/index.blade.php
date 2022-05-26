@@ -11,7 +11,7 @@
                         <img class="img-fullwidth" src="{{ asset('assets/images/stock/full_car_in.jpg') }}" alt="">
                         <div class="bg-lighter border-1px p-20 pt-0 mb-sm-180">
                             <h4 class="font-weight-700 mt-20">Experienced Service</h4>
-                            <p>{!! env('APP_DESC') !!}</p>
+                            <p>Give your car’s exterior and body a factory-finish from a professional car wrapping.</p>
                             <a href="{{ route('contact') }}" class="btn btn-sm btn-theme-colored">Contact us</a>
                         </div>
                     </div>
@@ -20,7 +20,8 @@
                         <img class="img-fullwidth" src="{{ asset('assets/images/stock/clean_tire.jpg') }}" alt="">
                         <div class="bg-lighter border-1px p-20 pt-0 mb-sm-180">
                             <h4 class="font-weight-700 mt-20">Wheel & Tire Cleaning</h4>
-                            <p>{!! env('APP_DESC') !!}</p>
+                            <p>You Choose the Car Wash and We Can Do it all, Professionally at {{ env('APP_NAME') }} the
+                                only choice for all Car Wash Services in Dubai.</p>
                             <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
                                 class="btn btn-sm btn-theme-colored">Contact Agent</a>
                         </div>
@@ -30,7 +31,7 @@
                         <img class="img-fullwidth" src="{{ asset('assets/images/stock/black_tire.jpg') }}" alt="">
                         <div class="bg-lighter border-1px p-20 pt-0">
                             <h4 class="font-weight-700 mt-20">Car Body Wash</h4>
-                            <p>{!! env('APP_DESC') !!}</p>
+                            <p>{{ env('APP_NAME') }} offer a wide variety of exterior car care services and Car Body Wash.</p>
                             <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
                                 class="btn btn-sm btn-theme-colored">Book now</a>
                         </div>
@@ -122,7 +123,7 @@
             <div class="section-title">
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-uppercase mb-0">Best Carfix &amp; Repair Template</p>
+                        <p class="text-uppercase mb-0">{{ env('APP_NAME') }}</p>
                         <div class="title-icon">
                             <i class="flaticon-carrepair-tool-6 font-48"></i>
                         </div>
@@ -139,9 +140,10 @@
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Car Polish</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Car Polish, for more detail. Please Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -150,9 +152,10 @@
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Car Wash</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Car Wash, for more detail. Please Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -161,20 +164,25 @@
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Mobile car wash</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Mobile car wash, for more detail. Please Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-sm-6 col-md-4">
                         <div class="icon-box p-10 pl-20 pr-15 mb-20 bg-white">
                             <a class="mb-0 line-bottom" href="#">
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Car Ceramic and Coating</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Car Ceramic and Coating, for more detail. Please
+                                Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -183,9 +191,10 @@
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Hand Waxing</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Hand Waxing, for more detail. Please Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -194,20 +203,24 @@
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Window Tinting </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Window Tinting, for more detail. Please Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-sm-6 col-md-4">
                         <div class="icon-box p-10 pl-20 pr-15 mb-20 bg-white">
                             <a class="mb-0 line-bottom" href="#">
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Interior Cleaning </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Interior Cleaning, for more detail. Please Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -216,9 +229,10 @@
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Engine Oil Change </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Engine Oil Change, for more detail. Please Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -227,9 +241,10 @@
                                 <i class="flaticon-carrepair-car-washing-machine text-theme-colored"></i>
                             </a>
                             <h3 class="icon-box-title mt-10 mb-10 text-uppercase">Cooling Paper </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quasi qui
-                                inventore, cumque!<a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
-                                    class="btn-read-more text-theme-colored"><br> Contact now</a></p>
+                            <p>We have Best & Expierence Service for Cooling Paper, for more detail. Please Contact us
+                                <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                    class="btn-read-more text-theme-colored"><br> Contact now</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -284,7 +299,7 @@
             <div class="section-title">
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-uppercase mb-0">Best Carfix &amp; Repair Template</p>
+                        <p class="text-uppercase mb-0">{{ env('APP_NAME') }}</p>
                         <div class="title-icon">
                             <i class="flaticon-carrepair-repair-1 font-48"></i>
                         </div>
@@ -553,10 +568,10 @@
                     <div class="col-md-6">
                         <img alt="" src="{{ asset('assets/images/stock/hero2.jpg') }}" class="img-fullwidth">
                         <h3 class="line-bottom-no-border">Car Repair &amp; Service Center</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et magni temporibus voluptates. Iure
-                            quam laboriosam ullam omnis nulla deleniti, repellendus sequi reiciendis quas voluptatibus
-                            consectetur alias aspernatur deserunt veritatis.</p>
-                        <a class="btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30" href="page-about-style1.html">Know
+                        <p>Our services are environmentally friendly, use best-in-class equipment and cleaning solutions.
+                            Our services are carried out by a professionally trained workforce. {!! env('APP_DESC') !!}</p>
+                        <a class="btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30"
+                            href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}">Know
                             More →</a>
                     </div>
                     <div class="col-md-6">
@@ -567,9 +582,10 @@
                                         <i class="flaticon-carrepair-transport-6 font-42 text-theme-colored"></i>
                                     </a>
                                     <h4 class="icon-box-title m-0 mb-5">Schedule Services</h4>
-                                    <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                                        magni temporibus voluptates adipisicing..</p>
-                                    <a class="text-theme-colored font-13" href="#">Read More →</a>
+                                    <p class="text-gray mb-5">{{ env('APP_NAME') }} Offer Schedule Services for Valuable
+                                        Customers, Just Contact us And Schedule our Services</p>
+                                    <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                        class="btn-read-more text-theme-colored"><br> Contact now</a>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6">
@@ -578,9 +594,10 @@
                                         <i class="flaticon-carrepair-car-washing-machine font-42 text-theme-colored"></i>
                                     </a>
                                     <h4 class="icon-box-title m-0 mb-5">Best Car Services</h4>
-                                    <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                                        magni temporibus voluptates adipisicing..</p>
-                                    <a class="text-theme-colored font-13" href="#">Read More →</a>
+                                    <p class="text-gray mb-5">{{ env('APP_NAME') }} Best Car Services in Abu Dhabi,
+                                        Because we have Experienced Cleaners in Abu Dhabi</p>
+                                    <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                        class="btn-read-more text-theme-colored"><br> Contact now</a>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6">
@@ -589,9 +606,10 @@
                                         <i class="flaticon-carrepair-car-on-a-frame font-42 text-theme-colored"></i>
                                     </a>
                                     <h4 class="icon-box-title m-0 mb-5">Complete Analysis</h4>
-                                    <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                                        magni temporibus voluptates adipisicing..</p>
-                                    <a class="text-theme-colored font-13" href="#">Read More →</a>
+                                    <p class="text-gray mb-5">{{ env('APP_NAME') }} offer Complete Analysis for all
+                                        models of Vehicle, Contact us for more Information</p>
+                                    <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                        class="btn-read-more text-theme-colored"><br> Contact now</a>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6">
@@ -600,9 +618,10 @@
                                         <i class="flaticon-carrepair-transport-4 font-42 text-theme-colored"></i>
                                     </a>
                                     <h4 class="icon-box-title m-0 mb-5">Security inspection</h4>
-                                    <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                                        magni temporibus voluptates adipisicing..</p>
-                                    <a class="text-theme-colored font-13" href="#">Read More →</a>
+                                    <p class="text-gray mb-5">{{ env('APP_NAME') }} is the Best Poplar Security
+                                        inspection in Entire Abu Dhabi. Contact for more detail.</p>
+                                    <a href="https://web.whatsapp.com/send?phone={{ env('APP_WHATSAPP') }}"
+                                        class="btn-read-more text-theme-colored"><br> Contact now</a>
                                 </div>
                             </div>
                         </div>

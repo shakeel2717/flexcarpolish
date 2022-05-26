@@ -40,7 +40,7 @@
                             data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000"
                             data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap; font-weight:600;">The Best Car Wash in Abu Dubai
+                            style="z-index: 7; white-space: nowrap; font-weight:600;">The Best Car Wash in Abu Dhabi
                         </div>
 
                         <!-- LAYER NR. 3 -->

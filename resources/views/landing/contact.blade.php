@@ -57,9 +57,7 @@
                 </div>
                 <div class="col-md-8">
                     <h3 class="line-bottom mt-0 mb-20">Interested in discussing?</h3>
-                    <p class="mb-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error optio in quia
-                        ipsum quae neque alias eligendi, nulla nisi. Veniam ut quis similique culpa natus dolor aliquam
-                        officiis ratione libero. Expedita asperiores aliquam provident amet dolores.</p>
+                    <p class="mb-20">Send us a message if you are Interested in discussing about your vehicle.</p>
                     <!-- Contact Form -->
                     <form id="contact_form" name="contact_form" class=""
                         action="http://html.kodesolution.live/s/workshop/v3.0/demo/includes/sendmail.php" method="post"
